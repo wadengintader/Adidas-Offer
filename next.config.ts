@@ -7,7 +7,7 @@ const LOADER = path.resolve(
 );
 
 const nextConfig: NextConfig = {
-  // ✅ Required for Vercel (fixes routes-manifest.json error)
+  // ✅ Required for Vercel
   output: "standalone",
 
   images: {
@@ -23,10 +23,7 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // ✅ Keep this for Orchids / tracing
-  outputFileTracingRoot: path.resolve(__dirname, "../../"),
-
-  // ✅ Prevent build from failing on TS/ESLint
+  // ✅ Prevent build failures
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -35,7 +32,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
 
-  // ✅ Keep Orchids loader
+  // ✅ Orchids loader
   turbopack: {
     rules: {
       "*.{jsx,tsx}": {
