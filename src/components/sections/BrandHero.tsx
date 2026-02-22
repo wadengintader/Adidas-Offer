@@ -52,7 +52,7 @@ const BrandHero = () => {
           <div className="flex items-center justify-center gap-1.5 sm:gap-2 w-full text-center mt-1.5 sm:mt-2">
             <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-black shrink-0 animate-pulse" />
             <p className="text-[13px] sm:text-sm md:text-[15px] text-zinc-600 font-medium leading-relaxed">
-              Here&apos;s how to claim your <span className="text-black font-extrabold">$750 Valentine's Gift Card</span>
+              Here&apos;s how to claim your <span className="text-black font-extrabold">$750 Gift Card</span>
             </p>
             <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-black shrink-0 animate-pulse" />
           </div>
