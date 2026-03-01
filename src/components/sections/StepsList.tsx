@@ -5,7 +5,7 @@ const StepsList = () => {
   const steps = [
     {
       icon: <ShoppingBag className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
-      text: 'Click the "Start Review" button above',
+      text: 'Click the "Start Review" button',
     },
     {
       icon: <UserPlus className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
